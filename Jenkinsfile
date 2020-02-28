@@ -7,21 +7,21 @@ pipeline {
         stage('build') {
             steps {
                 tool name: 'maven', type: 'maven'
-                
+                bat 'mvn -version'
             }
         }
         
         stage('compile') {
             steps {
                 tool name: 'maven', type: 'maven'
-                sh 'mvn clean'
+                bat 'mvn clean'
             }
         }
         
         stage('test') {
             steps {
                 tool name: 'maven', type: 'maven'
-                sh 'mvn test'
+                bat 'mvn test'
             }
         }
         
