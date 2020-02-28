@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="9870" started-at="2020-02-28T10:54:20 EST" finished-at="2020-02-28T10:54:30 EST">
+    <groups>
+    </groups>
+    <test name="Smoke" duration-ms="9870" started-at="2020-02-28T10:54:20 EST" finished-at="2020-02-28T10:54:30 EST">
+      <class name="googleTest.GoogleSearchTest">
+        <test-method status="PASS" signature="init(java.lang.String)[pri:0, instance:googleTest.GoogleSearchTest@63440df3]" name="init" is-config="true" duration-ms="7644" started-at="2020-02-28T10:54:20 EST" finished-at="2020-02-28T10:54:28 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="search(java.lang.String)[pri:0, instance:googleTest.GoogleSearchTest@63440df3]" name="search" duration-ms="2163" started-at="2020-02-28T10:54:28 EST" finished-at="2020-02-28T10:54:30 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Facebook]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+      </class> <!-- googleTest.GoogleSearchTest -->
+    </test> <!-- Smoke -->
+  </suite> <!-- Suite -->
+</testng-results>

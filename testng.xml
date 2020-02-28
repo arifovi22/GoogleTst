@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<parameter name="driverValue" value="firefox"></parameter>
+<parameter name="searchValue" value="Facebook"></parameter>
+  <test name ="Smoke" thread-count="5">
+    <classes>
+      <class name="googleTest.GoogleSearchTest"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
