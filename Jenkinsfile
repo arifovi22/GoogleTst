@@ -7,7 +7,7 @@ pipeline {
         stage('build') {
             steps {
                 tool name: 'maven', type: 'maven'
-                sh 'mvn -version'
+                
             }
         }
         
